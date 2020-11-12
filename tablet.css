@@ -1,6 +1,5 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  .hide-side1 
-  {
+  .hide-side1 {
     display: block;
     background-color: black;
     width: 70rem;
@@ -10,10 +9,12 @@
     justify-content: center;
     align-items: center;
   }
+
   .news_link {
     margin-left: 11rem;
     color: white;
   }
+
   .logo-mobile img {
     margin-top: -2rem;
     padding-right: 49rem;
@@ -36,9 +37,11 @@
   .menu {
     display: none;
   }
+
   .hidden-links {
     margin-left: -1.5rem;
   }
+
   .yellow {
     margin-top: -0.5rem;
     width: 146%;
@@ -80,6 +83,7 @@
     grid-row: 1;
     grid-column: 2;
   }
+
   .second_sub_news {
     margin-top: 0.5rem;
     height: 24rem;
@@ -87,11 +91,13 @@
     grid-row: 2;
     grid-column: 2;
   }
+
   .world {
     top:28rem;
   }
+
   .martian {
-    top:28rem;
+    top: 28rem;
     width: 35rem;
     font-size: 3.2rem;
   }
@@ -100,28 +106,35 @@
     top: 42.5rem;
     font-size: 1.5rem;
   }
+
   .fa-clock {
     margin-right: 2rem;
   }
+
   .watch {
     top:11rem;
     left: 49.5rem;
   }
+
   .nigeria {
     top: 34.5rem
   }
+
   .matt {
     top: 42.5rem;
     font-size: 1rem;
   }
+
   .insights {
     top: 32.5rem;
   }
+
   .news-pieces {
     width: 70rem;
     display: grid;
     grid-template-columns: 33% 33% 33%;
   }
+
   .one {
     grid-column: 1;
     grid-row: 1;
@@ -149,12 +162,15 @@
   .latest-funding {
     width: 20rem;
   }
+
   .rounds {
     display: flex;
   }
+
   .company {
     width: 22rem;
   }
+
   .raising {
     width: 22rem;
   }
@@ -162,11 +178,13 @@
   .more-funding-info {
     width: 22rem;
   }
+
   .brief {
     height: 5rem;
     width: 20rem;
     font-size: 1.2rem;
   }
+
   .headlines {
     width: 71rem;
     display: grid;
@@ -175,10 +193,12 @@
 
   .box {
     margin-left: 1rem ;
+    font-size: 1.2rem;
   }
   .make_transperant {
     height: 23rem;
   }
+
   .info {
     margin-top: 1rem;
   }
@@ -209,9 +229,6 @@
     font-size: 1.2rem;
   }
 
-  .box {
-    font-size: 1.2rem;
-  }
   .deals-container {
     width: 70rem;
     display: grid;
