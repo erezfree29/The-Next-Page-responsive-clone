@@ -492,7 +492,6 @@ ul li::before {
 
 .fa-search {
   margin-top: 1rem;
-
 }
 
 .menu {
@@ -504,7 +503,7 @@ ul li::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: "#fd3";
+  background-color: #fd3;
   width: 144%;
   height: 5rem;
 }
