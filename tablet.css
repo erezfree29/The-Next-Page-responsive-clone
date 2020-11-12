@@ -1,6 +1,5 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .hide-side1 {
-    display: block;
     background-color: black;
     width: 70rem;
     height: 2.5rem;
@@ -93,7 +92,7 @@
   }
 
   .world {
-    top:28rem;
+    top: 28rem;
   }
 
   .martian {
@@ -112,12 +111,12 @@
   }
 
   .watch {
-    top:11rem;
+    top: 11rem;
     left: 49.5rem;
   }
 
   .nigeria {
-    top: 34.5rem
+    top: 34.5rem;
   }
 
   .matt {
@@ -142,7 +141,6 @@
  
   .new {
     display: block;
-
   }
 
   .new-picture-image {
@@ -195,6 +193,7 @@
     margin-left: 1rem ;
     font-size: 1.2rem;
   }
+
   .make_transperant {
     height: 23rem;
   }
@@ -219,8 +218,8 @@
   .company-logo-third {
     top: 128.5rem;
     left: 49rem;
-
   }
+
   .about-headline {
     font-size: 1.8rem;
   }
@@ -243,5 +242,4 @@
     height: 16rem;
     width: 22rem;
   }
-
 }
