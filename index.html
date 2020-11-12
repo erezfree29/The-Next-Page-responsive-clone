@@ -3,13 +3,15 @@
 <head>
 		<meta charset="UTF-8">
 		<link rel = "stylesheet" href="./main.css">
+		<link rel = "stylesheet" href="./tablet.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
 	<header>
-		<div class="link-nav hide-side1">
+		<div class="link-nav hide-side1 medium-plus-plus">
+			<div class="hidden-links">
 				<span class="news_link"><a href="#" class="nnews">News</a></span>
 				<a href="#" class="nevents">Events <span></span></a>
 				<a href="#" class="nbusiness">Business <span></span></a>
@@ -20,6 +22,7 @@
 				<a href="#" class="nadvertise">Advertise</a>
 				<a href="#" class="njobs">Jobs</a>
 				<a href="#" class="ncontact">Contact</a>
+			</div>
 		</div>
 		<nav class="top_nav">
 			<div class="bar">
@@ -30,8 +33,9 @@
 				<img  src="./assets/logo-desk.png" alt="logo" />
         </div>
         <div class="vl"></div>
-        <i class="fas fa-search fa-3x"></i>
-        <div class="vl"></div>
+				<div class="search-mobile"><i class="fas fa-search fa-3x"></i></div>
+				<div class="search-tablet"><i class="fas fa-search"></i></div>
+        <div class="vl vltwo"></div>
         <img class="menu" src="./assets/menu.svg" alt="menu_icon">
 			</div>
 			<div class="navigation_bar">
@@ -93,43 +97,43 @@
 						<span class="new-time small">TNW Deals - 23 hours ago</span>
 					</div>
         </div>
-        <div class="new one">
+        <div class="new">
 					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/AI-camera-referee-e1604295644927-513x270.jpg"></div>
 					<div class="new-text medium-plus"><a href="#">AL mistakes referee's bald head for footbal -hilarity ensued</a> <br>
 						<span class="new-time small">Ivan Meria  - 5 hours ago</span>
 					</div>
         </div>
-        <div class="new two">
+        <div class="new">
 					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/global-earh-international-gq-368x276.png"></div>
 					<div class="new-text medium-plus"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
 						<span class="new-time small">Mikhal Vink - 6 hours ago</span>
 					</div>
         </div>
-        <div class="new four">
+        <div class="new">
 					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/image-10-2-516x270.png"></div>
 					<div class="new-text medium-plus"><a href="#">To reach net-zero carboon emissions, we must address socail inequalities</a> <br>
 						<span class="new-time small">The Conversation - 1 day ago</span>
 					</div>
         </div>
-        <div class="new five">
+        <div class="new">
 					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/TNW-Working-405x270.jpg"></div>
 					<div class="new-text medium-plus"><a href="#">Aspiring to be a full time entreprenur? Then you should probably consider these five groth tools</a> <br>
 						<span class="new-time small">TNW Deals - 1 day ago</span>
 					</div>
         </div>
-        <div class="new six">
+        <div class="new">
 					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/Email-Marketing-Gmail-405x270.jpg"></div>
 					<div class="new-text medium-plus"><a href="#">This email marketing tool could turn all your campaigns into gold</a> <br>
 						<span class="new-time small">TNW Deals - 1 day ago</span>
 					</div>
         </div>
-        <div class="new seven">
+        <div class="new">
 					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/image-8-5-368x276.png"></div>
 					<div class="new-text medium-plus"><a href="#">Facebook charged Biden a higher price than Trumo for campaign ads</a> <br>
 						<span class="new-time small">The Markup - 2 days ago</span>
 					</div>
         </div>
-        <div class="new eight">
+        <div class="new">
 					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/Backbone-Featured-516x270.jpg"></div>
 					<div class="new-text medium-plus"><a href="#">The Backbone one is the best mobile gaming controller I've laid hands on</a> <br>
 						<span class="new-time small">Rachel Kaser - 2 days ago</span>
@@ -139,7 +143,7 @@
     </section>
     <section class="container funding_rounds">
 			<div class="top-funding">
-				<div class="latest-funding big">Latest funding on index.co></div>
+				<div class="latest-funding big">Latest funding rounds on index.co></div>
 				<a href="#"><div class="fund-more"></div>See more</a>
 				<a href="#"><div>Get updates by email</div></a>
 				<a href="#"><div>Add info</div></a>
@@ -307,7 +311,7 @@
 					<div class="box"><div class="info"><div>LATEST</div>This real-world multiplayer game let's you spend other people's money - really</div></div>
 					<img class="side-pic" alt="sub-headline" src="./assets/card-v-card-bank-account-multiplayer-game.png">
 				</div>
-				<ul>
+				<ul class="grid-list medium">
 					<li><a href="#">Warzone is infintely more fun without vehicles (even though it's just a bug)</a><hr></li>
 					<li><a href="#">The Winamp Skin Museum is a beautiful homage to an iconic piece of software</a><hr></li>
 					<li><a href="#">Why skin tone modifiers don't work for <img class="hand"  alt="headline" src="https://s.w.org/images/core/emoji/11/svg/1f91d.svg">,explained by an emoji historian</a><hr></li>

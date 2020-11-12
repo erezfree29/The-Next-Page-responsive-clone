@@ -322,26 +322,27 @@ body {
 .company-logo-first {
   width: 4.5rem;
   position: absolute;
-  top: 127.5rem;
+  top: 135.5rem;
   left: 2rem;
 }
 
 .company-logo-second {
   width: 4.5rem;
   position: absolute;
-  top: 144.2rem;
+  top: 152.2rem;
   left: 2rem;
 }
 
 .company-logo-third {
   width: 4.5rem;
   position: absolute;
-  top: 161.5rem;
+  top: 169.5rem;
   left: 2rem;
 }
 
 .new-picture-image {
   width: 9.5rem;
+  height: 7em;
   margin-left: 1rem;
   padding-right: 1rem;
 }
@@ -529,4 +530,8 @@ ul li::before {
 
 .brief {
   width: 27rem;
+}
+
+.search-tablet {
+  display: none;
 }
