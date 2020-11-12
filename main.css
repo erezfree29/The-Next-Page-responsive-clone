@@ -1,0 +1,521 @@
+.small {
+  font-size: 0.7rem;
+}
+
+.medium {
+  font-size: 1rem;
+}
+
+.medium-plus {
+  font-size: 1.2rem;
+}
+
+.medium-plus-plus {
+  font-size: 1.5rem;
+}
+
+.big {
+  font-size: 1.8rem;
+}
+
+.foot_up {
+  background-color: #131313;
+  width: 143%;
+}
+
+.foot_down {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 143%;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.icon {
+  background-color: white;
+}
+
+.circle {
+  width: 2rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face {
+  margin-right: 0.2rem;
+}
+
+.twitt {
+  margin-right: 0.2rem;
+}
+
+.tube {
+  margin-right: 0.2rem;
+}
+
+.gram {
+  margin-right: 0.2rem;
+}
+
+.pin {
+  margin-right: 0.2rem;
+}
+
+.rss {
+  margin-right: 0.2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.link {
+  color: #aaa;
+}
+
+.events {
+  padding-right: 0.5rem;
+}
+
+.about {
+  padding-right: 0.5rem;
+}
+
+.advertise {
+  padding-right: 0.5rem;
+}
+
+.jobs {
+  padding-right: 0.5rem;
+}
+
+.logo {
+  padding-right: 0.3rem;
+  width: 2rem;
+  height: 1rem;
+}
+
+.fa-copyright {
+  color: #a4aaaa;
+  padding-right: 0.3rem;
+}
+
+.text {
+  color: #a4aaaa;
+}
+
+.copyrights {
+  display: flex;
+  width: 17rem;
+}
+
+.made {
+  padding-left: 0.5rem;
+}
+
+.powered {
+  padding-left: 1.5rem;
+}
+
+.stack {
+  width: 4rem;
+}
+
+.latest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.la-deals {
+  color: #f42;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.deals {
+  padding-bottom: 7rem;
+}
+
+.all-deals {
+  color: #f42;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+.deal {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.deal-image {
+  width: 7.5rem;
+}
+
+.deal-text {
+  padding-left: 1rem;
+}
+
+.old-price {
+  color: #aaacb4;
+  text-decoration: line-through;
+}
+
+.new-price {
+  color: #555;
+}
+
+.side-pic {
+  width: 9.6rem;
+}
+
+.sub-headline {
+  display: flex;
+  width: 28rem;
+}
+
+.box {
+  background-color: #fff4f2;
+  color: #f42;
+  font-weight: 600;
+  width: 27rem;
+  padding-left: 1rem;
+}
+
+.headline-image {
+  padding-left: 1rem;
+}
+
+.make_transperant {
+  height: 19rem;
+  width: 27rem;
+}
+
+.headline {
+  position: relative;
+}
+
+.text-on-picture {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  top: 15rem;
+  left: 2rem;
+}
+
+.about-headline {
+  width: 21rem;
+}
+
+.published {
+  color: #828282;
+  font-weight: 900;
+  text-shadow: black 0.1rem 0 1rem;
+}
+
+.hand {
+  width: 1rem;
+}
+
+body {
+  max-width: 60rem;
+  margin: auto;
+}
+
+.latest-funding {
+  font-weight: 600;
+}
+
+.top-funding {
+  width: 15rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: #f42;
+}
+
+.fund-more {
+  color: #f42;
+}
+
+.company {
+  margin-left: 1.5rem;
+  width: 23rem;
+  height: 3.5rem;
+  background-color: #f42;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.name {
+  padding-left: 5.5rem;
+}
+
+.raising {
+  margin-left: 1.5rem;
+  background-color: #ffebe7;
+  width: 23rem;
+  height: 3.5rem;
+}
+
+.amount {
+  padding-top: 0.7rem;
+  padding-left: 5.5rem;
+}
+
+.investor {
+  padding-left: 5.5rem;
+}
+
+.more-funding-info {
+  background-color: #fffaf8;
+  margin-left: 1rem;
+  width: 23rem;
+  height: 10rem;
+}
+
+.fa-coins {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.fa-briefcase {
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+}
+
+.on {
+  color: #aaa;
+}
+
+.hidden {
+  display: none;
+}
+
+.company-logo-first {
+  width: 4.5rem;
+  position: absolute;
+  top: 127.5rem;
+  left: 2rem;
+}
+
+.company-logo-second {
+  width: 4.5rem;
+  position: absolute;
+  top: 144.2rem;
+  left: 2rem;
+}
+
+.company-logo-third {
+  width: 4.5rem;
+  position: absolute;
+  top: 161.5rem;
+  left: 2rem;
+}
+
+.new-picture-image {
+  width: 9.5rem;
+  margin-left: 1rem;
+  padding-right: 1rem;
+}
+
+.new {
+  display: flex;
+  width: 28.25rem;
+  margin-top: 2rem;
+}
+
+.new a {
+  color: black;
+}
+
+.new-text {
+  font-weight: 600;
+}
+
+.new-time {
+  color: #afaaaa;
+}
+
+.latest_news {
+  margin-top: 1rem;
+}
+
+.hide-side1 {
+  display: none;
+}
+
+.hide_formobile {
+  display: none;
+}
+
+.news {
+  position: relative;
+  color: white;
+  margin-top: -4rem;
+  width: 28rem;
+}
+
+.main_news {
+  height: 14em;
+  width: 34rem;
+  background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/earth.png');
+  margin-bottom: 0.5rem;
+}
+
+.recent_news {
+  margin-top: 60px;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.logo-desktop {
+  display: none;
+}
+
+.author {
+  display: flex;
+  font-size: 10px;
+  color: rgb(228, 224, 218);
+  position: absolute;
+  top: 10rem;
+}
+
+.fa-clock {
+  width: 1rem;
+  padding-top: 0.01rem;
+  margin-right: 0.85rem;
+}
+
+.by {
+  padding-right: 0.5rem;
+}
+
+.first_sub_news {
+  height: 9rem;
+  width: 34rem;
+  margin-bottom: -3.2rem;
+  background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/TNW-Working-405x270.jpg');
+}
+
+.second_sub_news {
+  height: 12rem;
+  width: 34rem;
+  background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/nigeria.jpg');
+}
+
+.time {
+  margin-left: -1rem;
+  margin-right: 0.3rem;
+}
+
+.insights {
+  position: absolute;
+  top: 26rem;
+}
+
+.fa-share-alt {
+  padding-right: 0.3rem;
+}
+
+.nigeria {
+  position: absolute;
+  top: 27.5rem;
+}
+
+.watch {
+  position: absolute;
+  top: 18rem;
+}
+
+.martian {
+  position: absolute;
+  top: 7.5rem;
+}
+
+.world {
+  position: absolute;
+  top: 6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.matt {
+  top: 32.5rem;
+}
+
+.first_author {
+  top: 12.5rem;
+}
+
+.logo-mobile img {
+  width: 11rem;
+  padding-right: 11rem;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-around;
+  width: 146%;
+}
+
+.fa-search {
+  margin-top: 1rem;
+}
+
+.menu {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.yellow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd3;
+  width: 144%;
+  height: 5rem;
+}
+
+.pandemic {
+  margin-left: 1rem;
+}
+
+.vl {
+  border-left: 0.04rem solid gray;
+}
+
+.rounds {
+  margin-top: 2rem;
+}
