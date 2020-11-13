@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel = "stylesheet" href="./main.css">
 		<link rel = "stylesheet" href="./tablet.css">
+		<link rel = "stylesheet" href="./laptop.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
@@ -25,28 +26,29 @@
 			</div>
 		</div>
 		<nav class="top_nav">
-			<div class="bar">
-        <div class="logo-mobile">
-        <img  src="./assets/logo-desk.png" alt="logo" />
-        </div>
-			  <div class="logo-desktop">
-				<img  src="./assets/logo-desk.png" alt="logo" />
-        </div>
-        <div class="vl"></div>
-				<div class="search-mobile"><i class="fas fa-search fa-3x"></i></div>
-				<div class="search-tablet"><i class="fas fa-search"></i></div>
-        <div class="vl vltwo"></div>
-        <img class="menu" src="./assets/menu.svg" alt="menu_icon">
-			</div>
 			<div class="navigation_bar">
 				<div class="hide_formobile">
 					<span class="latest-nav"><a href="#">Latest</a></span>
-					<span class="fork-nav"><a href="#">Hard Fork</a></span>
+					<span class="fork-nav"><a href="#"><span class="work">Hard</span><span>Work</span></a></span>
 					<span class="plugged-nav"><a href="#">Plugged</a></span>
 					<span class="read-me-nav"><a href="#">ReadMe</a></span>
-					<span class="growth-nav"><a href="#">Growth Quarters</a></span>
+					<span class="growth-nav"><a href="#"><span class="growth">Growth</span><span>Quarters</span></a></span>
 					<span class="shift-nav"><a href="#">Shift</a></span>
 					<span class="neural-nav"><a href="#">Neural</a></span>
+					<div class="vl vltablet"></div>
+					<div class="search-tablet"><i class="fas fa-search fa-lg"></i></div>
+				</div>
+				<div class="bar">
+					<div class="logo-mobile">
+					<img  src="./assets/logo-desk.png" alt="logo" />
+					</div>
+					<div class="logo-desktop">
+					<img  src="./assets/logo-desk.png" alt="logo" />
+					</div>
+					<div class="vl vlmobile"></div>
+					<div class="search-mobile"><i class="fas fa-search fa-3x"></i></div>
+					<div class="vl vltwo"></div>
+					<img class="menu" src="./assets/menu.svg" alt="menu_icon">
 				</div>
 			</div>
     </nav>
@@ -143,7 +145,7 @@
     </section>
     <section class="container funding_rounds">
 			<div class="top-funding">
-				<div class="latest-funding big">Latest funding rounds on index.co></div>
+				<div class="latest-funding big">Latest funding rounds on index.co ></div>
 				<a href="#"><div class="fund-more"></div>See more</a>
 				<a href="#"><div>Get updates by email</div></a>
 				<a href="#"><div>Add info</div></a>
