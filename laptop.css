@@ -1,7 +1,7 @@
 @media (min-width: 1024px) {
   .hide-side1 {
     background-color: black;
-    width: 81rem;
+    width: 80rem;
     color: #9f9f97;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@
 
   .hidden-links {
     font-size: 1rem;
-    margin-left: 0.5rem;
+    padding-left: 2rem;
   }
 
   .news_link,
@@ -44,7 +44,7 @@
   .shift-nav,
   .neural-nav {
     padding-left: 0.3rem;
-    padding-right: 44rem;
+    padding-right: 36rem;
   }
 
   .latest-nav,
@@ -53,11 +53,11 @@
   .read-me-nav,
   .growth-nav,
   .shift-nav {
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
 
   .latest-nav {
-    padding-left: 1rem;
+    padding-left: 1.95rem;
   }
 
   .search-mobile {
@@ -83,7 +83,7 @@
   }
 
   .yellow {
-    width: 81rem;
+    width: 80rem;
   }
 
   .work,
@@ -92,7 +92,7 @@
   }
 
   .news {
-    margin-top: 0.9 rem;
+    margin-top: 0.9rem;
     width: 80rem;
     display: grid;
     grid-template-columns: 70% 30%;
@@ -114,7 +114,7 @@
   }
 
   .second_sub_news {
-    margin-top: 0.5rem;
+    margin-top: 3.5rem;
     height: 27rem;
     width: 24rem;
     grid-row: 2;
@@ -218,23 +218,23 @@
   }
 
   .company-logo-first {
-    top: 135rem;
+    top: 139rem;
   }
 
   .company-logo-second {
     left: 21rem;
-    top: 135rem;
+    top: 139rem;
   }
 
   .company-logo-third {
-    top: 135rem;
+    top: 139rem;
     left: 41rem;
   }
 
   .company-logo-four {
     width: 4.5rem;
     position: absolute;
-    top: 135rem;
+    top: 139rem;
     left: 61rem;
   }
 
@@ -295,10 +295,10 @@
   }
 
   .foot_up {
-    width: 175%;
+    width: 181%;
   }
 
   .foot_down {
-    width: 175%;
+    width: 181%;
   }
 }

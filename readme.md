@@ -10,6 +10,18 @@ I have clonded a webpage using responsive design.
 
 ![Original ScreenHot](./assets/Awesome-Screenshot.png)
 
+**Mobile view** 
+
+![Original ScreenHot](./assets/mobile-view-on-chrome.png)
+
+**Tablet view** 
+
+![Original ScreenHot](./assets/tablet-view-on-chrmoe.png)
+
+**Laptop view** 
+
+![Original ScreenHot](./assets/laptop-view-firefox.png)
+
 **In This project I have:**
 
 Used Media queries to acheive responsive design.
