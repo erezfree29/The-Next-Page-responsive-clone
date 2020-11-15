@@ -1,7 +1,6 @@
 @media (min-width: 1024px) {
   .hide-side1 {
     background-color: black;
-    width: 80rem;
     color: #9f9f97;
     display: flex;
     align-items: center;
@@ -10,11 +9,6 @@
 
   .logo-mobile img {
     display: none;
-  }
-
-  .hidden-links {
-    font-size: 1rem;
-    padding-left: 2rem;
   }
 
   .news_link,
@@ -33,7 +27,6 @@
   .hide_formobile {
     display: flex;
     align-items: center;
-    width: 81rem;
     height: 3rem;
   }
 
@@ -44,7 +37,7 @@
   .shift-nav,
   .neural-nav {
     padding-left: 0.3rem;
-    padding-right: 36rem;
+    padding-right: 53rem;
   }
 
   .latest-nav,
@@ -82,10 +75,6 @@
     display: none;
   }
 
-  .yellow {
-    width: 80rem;
-  }
-
   .work,
   .growth {
     padding-right: 0.2rem;
@@ -93,47 +82,51 @@
 
   .news {
     margin-top: 0.9rem;
-    width: 80rem;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 65% 35%;
     grid-template-rows: 45% 55%;
+    width: 100vw;
   }
 
   .main_news {
     height: 51rem;
-    width: 55.42rem;
+    width: 64.8vw;
     grid-column: 1;
     grid-row: 1 / 3;
   }
 
   .first_sub_news {
-    width: 24rem;
     height: 23.15rem;
+    width: 35vw;
     grid-row: 1;
     grid-column: 2;
   }
 
   .second_sub_news {
-    margin-top: 3.5rem;
-    height: 27rem;
-    width: 24rem;
+    margin-top: 0.5rem;
+    height: 27.3rem;
     grid-row: 2;
     grid-column: 2;
+    width: 35vw;
   }
 
   .world {
-    top: 28rem;
+    top: 36rem;
+    font-size: 1.8rem;
+    left: 1rem;
   }
 
   .martian {
-    top: 28rem;
-    width: 35rem;
+    top: 37rem;
     font-size: 3.2rem;
+    width: 57vw;
+    left: 1rem;
   }
 
   .first_author {
-    top: 42.5rem;
+    top: 47.5rem;
     font-size: 1.5rem;
+    margin-left: 1rem;
   }
 
   .fa-clock {
@@ -142,7 +135,7 @@
 
   .watch {
     top: 11rem;
-    left: 56.5rem;
+    left: 77.5rem;
   }
 
   .nigeria {
@@ -159,9 +152,11 @@
   }
 
   .news-pieces {
-    width: 80rem;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
   }
 
   .one {
@@ -174,21 +169,17 @@
   }
 
   .new-picture-image {
-    width: 22rem;
     height: 12rem;
+    width: 16vw;
   }
 
   .new-text {
-    width: 24rem;
     margin-left: 1rem;
+    width: 15vw;
   }
 
   .new-time {
     font-size: 1rem;
-  }
-
-  .latest-funding {
-    width: rem;
   }
 
   .rounds {
@@ -218,40 +209,44 @@
   }
 
   .company-logo-first {
-    top: 139rem;
+    top: 122.5rem;
+    left: 19.5rem;
   }
 
   .company-logo-second {
-    left: 21rem;
-    top: 139rem;
+    left: 39rem;
+    top: 122.5rem;
   }
 
   .company-logo-third {
-    top: 139rem;
-    left: 41rem;
+    top: 122.5rem;
+    left: 58.5rem;
   }
 
   .company-logo-four {
     width: 4.5rem;
     position: absolute;
-    top: 139rem;
-    left: 61rem;
+    top: 122.5rem;
+    left: 78rem;
   }
 
   .headlines {
-    width: 81rem;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    margin-top: 0.5rem;
   }
 
   .box {
     margin-left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .make_transperant {
-    height: 23rem;
-    width: 25rem;
+    height: 15rem;
+    width: 22rem;
   }
 
   .info {
@@ -264,7 +259,7 @@
   }
 
   .sub-headline {
-    width: 26rem;
+    width: 23rem;
   }
 
   .most {
@@ -275,30 +270,84 @@
     font-size: 1.5rem;
   }
 
-  .deals-container {
-    width: 70rem;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-  }
-
   .deal {
     display: block;
   }
 
   .deal-image {
     height: 16rem;
-    width: 22rem;
+    width: 16rem;
   }
 
-  .latest {
-    width: 69rem;
-  }
-
-  .foot_up {
-    width: 181%;
+  .footer {
+    width: 100%;
   }
 
   .foot_down {
-    width: 181%;
+    width: 100vw;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0%;
+  }
+
+  .hidden-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .right-links {
+    padding-right: 1rem;
+  }
+
+  .navigation_bar {
+    width: 100vw;
+  }
+
+  .yellow {
+    width: 100vw;
+  }
+
+  .la-deals {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+  }
+
+  .funding-rounds {
+    margin-right: 14.5vw;
+    margin-top: 22vh;
+  }
+
+  .latest-funding {
+    width: 30vw;
+  }
+
+  .text-on-picture {
+    top: 11rem;
+  }
+
+  .funding_rounds {
+    margin-left: 17.5rem;
+    margin-top: 4rem;
+  }
+
+  .latest {
+    width: 70vw;
+    height: 3rem;
+    margin-left: 18rem;
+  }
+
+  .deals-container {
+    margin-left: 18rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 70vw;
+  }
+
+  .foot_up {
+    width: 100vw;
   }
 }

@@ -24,8 +24,8 @@
 
 .foot_up {
   background-color: #131313;
-  width: 165%;
-  height: 10rem;
+  height: 160px;
+  width: 552px;
 }
 
 .foot_down {
@@ -34,7 +34,7 @@
   justify-content: center;
   align-items: center;
   height: 7rem;
-  width: 165%;
+  width: 552px;
 }
 
 .footer_icons {
@@ -129,7 +129,7 @@ a {
 
 .copyrights {
   display: flex;
-  width: 17rem;
+  width: 272px;
 }
 
 .made {
@@ -141,7 +141,7 @@ a {
 }
 
 .stack {
-  width: 4rem;
+  width: 64px;
 }
 
 .latest {
@@ -225,7 +225,7 @@ a {
   position: absolute;
   color: white;
   z-index: 1;
-  top: 15rem;
+  top: 16rem;
   left: 2rem;
 }
 
@@ -244,7 +244,7 @@ a {
 }
 
 body {
-  max-width: 45rem;
+  width: 320px;
   background-attachment: green;
   margin: 0%;
   overflow-x: hidden;
@@ -490,23 +490,19 @@ ul li::before {
 }
 
 .logo-mobile img {
-  width: 11rem;
-  padding-right: 11rem;
+  width: 140px;
+  padding-left: 186px;
+  padding-right: 338px;
 }
 
 .bar {
   display: flex;
   justify-content: space-around;
-  width: 146%;
 }
 
 .fa-search {
   margin-top: 1rem;
-}
-
-.menu {
-  width: 3rem;
-  margin-right: 1rem;
+  padding-right: 1px;
 }
 
 .yellow {
@@ -514,8 +510,8 @@ ul li::before {
   justify-content: center;
   align-items: center;
   background-color: #fd3;
-  width: 144%;
-  height: 5rem;
+  height: 80px;
+  width: 551px;
 }
 
 .pandemic {
@@ -524,6 +520,14 @@ ul li::before {
 
 .vl {
   border-left: 0.04rem solid gray;
+}
+
+.vlmobile {
+  padding-right: 5px;
+}
+
+.vltow {
+  padding-left: 5px;
 }
 
 .rounds {
@@ -540,4 +544,16 @@ ul li::before {
 
 .grid-list {
   width: 32rem;
+}
+
+footer {
+  width: 350px;
+}
+
+.top_nav {
+  width: 350px;
+}
+
+.briefcase {
+  font-size: 1.5rem;
 }
