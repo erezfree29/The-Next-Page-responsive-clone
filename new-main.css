@@ -436,11 +436,11 @@ a {
   left: 1rem;
 }
 
-.info,
-.fund-more a {
+/* .info,
+.fund-more a:link {
   color: red;
 }
 
 .new a:link { 
   color: black; 
-}
+} */
