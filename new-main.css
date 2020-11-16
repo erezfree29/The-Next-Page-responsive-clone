@@ -329,7 +329,6 @@ a {
   display: flex;
   margin-top: 2rem;
 }
-.new a { color: black; } 
 
 .new-text {
   font-weight: 600;
@@ -440,4 +439,8 @@ a {
 .info,
 .fund-more a {
   color: red;
+}
+
+.new a:link { 
+  color: black; 
 }
