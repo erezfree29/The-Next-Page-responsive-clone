@@ -180,8 +180,8 @@
 }
 
 .side-pic {
-  width: 52px;
-  height: 55px;
+  width: 105px;
+  height: 70px;
 }
 
 .make_transperant {
@@ -199,7 +199,8 @@
   position: absolute;
   color: white;
   z-index: 1;
-  top: 167rem;
+  top: 14rem;
+  width: 281px;
   left: 1rem;
 }
 
@@ -297,25 +298,11 @@ a {
   display: none;
 }
 
-.company-logo-first {
+.company-logo {
   width: 4.5rem;
   position: absolute;
-  top: 117rem;
-  left: 2.5rem;
-}
-
-.company-logo-second {
-  width: 4.5rem;
-  position: absolute;
-  top: 134.5rem;
-  left: 2.5rem;
-}
-
-.company-logo-third {
-  width: 4.5rem;
-  position: absolute;
-  top: 151rem;
-  left: 2.5rem;
+  top: 1rem;
+  left: 2rem;
 }
 
 .new-picture-image {
@@ -341,7 +328,7 @@ a {
 
 .world {
   position: absolute;
-  top: 9rem;
+  top: 11rem;
   left: 1rem;
 }
 
@@ -365,13 +352,13 @@ a {
 
 .first_author {
   position: absolute;
-  top: 16rem;
+  top: 17rem;
   left: 1rem;
 }
 
 .watch {
   position: absolute;
-  top: 22.5rem;
+  top: 24.5rem;
   left: 1rem;
 }
 
@@ -414,24 +401,214 @@ a {
 
 .insights {
   position: absolute;
-  top: 33rem;
+  top: 34rem;
   left: 1rem;
 }
 
 .matt {
   position: absolute;
-  top: 39rem;
+  top: 40rem;
   left: 1rem;
 }
 
 .martian {
   position: absolute;
-  top: 11rem;
+  top: 12.5rem;
   left: 1rem;
 }
 
 .nigeria {
   position: absolute;
-  top: 35rem;
+  top: 36rem;
   left: 1rem;
+}
+
+.fund-more a {
+  color: red;
+}
+
+.info a {
+  color: red;
+}
+
+.updates a {
+  color: red;
+}
+
+.new a:link {
+  color: black;
+}
+
+.hide-side1 {
+  display: none;
+}
+
+.headline {
+  position: relative;
+}
+
+.round {
+  position: relative;
+}
+
+.pandemic {
+  width: 280px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hide-side1 {
+    background-color: black;
+    color: #9f9f97;
+    display: flex;
+    align-items: center;
+    height: 32px;
+  }
+
+  .hidden-links {
+    display: flex;
+    width: 100%;
+  }
+
+  .logo-desktop {
+    display: block;
+    margin-top: -1.5rem;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-desktop img {
+    width: 6rem;
+    height: 5rem;
+    margin-top: -3rem;
+  }
+
+  .news_link {
+    padding-left: 6rem;
+    color: white;
+  }
+
+  .hide_formobile {
+    margin-left: 96px;
+    width: 87%;
+    display: flex;
+    align-items: center;
+    height: 65px;
+  }
+
+  .search-kit {
+    display: none;
+  }
+
+  .neural-nav {
+    padding-right: 210px;
+  }
+
+  .latest-nav {
+    padding-left: 0.5rem;
+  }
+
+  .search-tablet {
+    padding-top: 1rem;
+  }
+
+  .pandemic {
+    font-size: 1rem;
+  }
+
+  .news {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 64.5% 35%;
+    height: 520px;
+  }
+
+  .main_news {
+    position: relative;
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+    width: 476px;
+    height: 520px;
+  }
+
+  .first_sub_news {
+    position: relative;
+    width: 264px;
+    height: 257px;
+  }
+
+  .second_sub_news {
+    position: relative;
+    width: 264px;
+    height: 257px;
+    margin-top: -26px;
+  }
+
+  .new {
+    display: block;
+  }
+
+  .news-pieces {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .new-picture-image {
+    width: 185px;
+    height: 150px;
+  }
+
+  .new-text {
+    width: 175px;
+    margin-left: 14px;
+  }
+
+  .latest-funding {
+    margin-bottom: 1rem;
+  }
+  
+  .fund-more,
+  .updates {
+    margin-bottom: 0.5rem;
+  }
+
+  .rounds {
+    display: flex;
+  }
+
+  .funding_rounds {
+    margin-bottom: 5rem;
+  }
+
+  .headlines {
+    display: grid;
+    grid-template-columns: 47% 47%;
+  }
+
+  .make_transperant {
+    width: 96%;
+  }
+
+  .deal {
+    display: block;
+  }
+
+  .deals-contain {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .deal-image {
+    width: 180px;
+  }
+
+  .deal-text {
+    padding-left: 0.01rem;
+    width: 175px;
+  }
+
+  .side-pic {
+    width: 90px;
+  }
 }
