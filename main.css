@@ -905,4 +905,9 @@ a {
   .deal-text {
     padding-left: 0.1rem;
   }
+
+  .latest-news-header {
+    margin-left: 17rem;
+    margin-bottom: -2rem;
+  }
 }
