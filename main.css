@@ -568,7 +568,7 @@ a {
   .latest-funding {
     margin-bottom: 1rem;
   }
-  
+
   .fund-more,
   .updates {
     margin-bottom: 0.5rem;
@@ -638,7 +638,7 @@ a {
   .world {
     top: 23rem;
   }
-  
+
   .watch {
     top: 6rem;
   }
@@ -727,7 +727,6 @@ a {
 
   .martain {
     position: absolute;
-
   }
 
   .martian {
@@ -753,7 +752,6 @@ a {
     width: 42.6vw;
     height: 293px;
     margin-bottom: 8px;
-
   }
 
   .second_sub_news {
@@ -766,6 +764,7 @@ a {
     left: 1088px;
     top: 40rem;
   }
+
   .nigeria {
     left: 1088px;
     top: 42.5rem;
@@ -894,8 +893,6 @@ a {
   .all-deals {
     padding-top: 11.5rem;
     padding-right: 4rem;
-   
-
   }
 
   .latest {
