@@ -712,7 +712,7 @@ a {
     position: relative;
     grid-column: 1 / 1;
     grid-row: 1 / 3;
-    width: 1050px;
+    width: 900px;
     height: 600px;
   }
 
@@ -749,15 +749,17 @@ a {
 
   .first_sub_news {
     grid-column: 2 /2;
-    width: 42.6vw;
+    width: 43.6vw;
     height: 293px;
     margin-bottom: 8px;
+    margin-left: -8rem;
   }
 
   .second_sub_news {
     grid-column: 2 /2;
-    width: 42.6vw;
+    width: 43.6vw;
     height: 293px;
+    margin-left: -8rem;
   }
 
   .insights {
@@ -776,7 +778,7 @@ a {
   }
 
   .yellow {
-    width: 98.8vw;
+    width: 91vw;
   }
 
   .news-pieces {
@@ -821,7 +823,7 @@ a {
   }
 
   .la-deals {
-    margin-left: -1rem;
+    margin-left: 17rem;
     margin-top: 10rem;
   }
 
