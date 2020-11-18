@@ -738,6 +738,7 @@ a {
   .pink {
     display: block;
     background-image: url(./assets/earth-pink.png);
+    height: 100%;
   }
 
   .first_author {
@@ -769,7 +770,7 @@ a {
 
   .first_sub_news {
     grid-column: 2 /2;
-    height: 293px;
+    height: 99%;
     margin-bottom: 8px;
     width: 71%;
     padding-left: 12rem;
@@ -777,7 +778,7 @@ a {
 
   .second_sub_news {
     grid-column: 2 /2;
-    height: 293px;
+    height: 99%;
     width: 71%;
     padding-left: 12rem;
   }
