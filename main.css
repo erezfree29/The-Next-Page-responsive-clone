@@ -210,7 +210,7 @@
 }
 
 .info {
-  width: 235px;
+  width: 271px;
 }
 
 .box {
@@ -459,9 +459,21 @@ a {
   .side-pic {
     width: 55px;
   }
+
+  .info {
+    width: 233px;
+  }
+
+  .text-on-picture {
+    top: 11rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .info {
+    width: 232px;
+  }
+
   .hide-side1 {
     background-color: black;
     color: #9f9f97;
@@ -860,7 +872,7 @@ a {
   }
 
   .info {
-    width: 300px;
+    width: 305px;
     margin-top: 0.5rem;
   }
 
